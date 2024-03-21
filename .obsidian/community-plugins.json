@@ -1,8 +1,8 @@
 [
   "obsidian-git",
-  "templater-obsidian",
   "periodic-notes",
   "url-into-selection",
   "dataview",
-  "breadcrumbs"
+  "breadcrumbs",
+  "tag-wrangler"
 ]

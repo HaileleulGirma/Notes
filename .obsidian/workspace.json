@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Report writing.md",
+                "file": "Resources/how to use obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Report writing.md",
+                "file": "Resources/how to use obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Report writing.md"
+                "file": "Resources/how to use obsidian.md"
               }
             }
           },
@@ -194,11 +194,13 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "be73cfb927c83b52",
+  "active": "d30ed5e04c7b9cc8",
   "lastOpenFiles": [
+    "Templates",
+    "New folder",
+    "Resources/Report writing.md",
     "Resources/how to use obsidian.md",
     "Resources/md cheatsheet.png",
-    "Resources/Report writing.md",
     "Resources/Writing.md",
     "Notes/API testing.md",
     "API testing/API testing.md",
