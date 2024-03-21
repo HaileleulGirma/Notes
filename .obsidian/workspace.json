@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "132184c2ee3fd274",
+    "type": "split",
+    "children": [
+      {
+        "id": "4587fa2c6de662a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2053744de7d369c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ole.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "22df15993207541b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b51d872ac75ac6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "786dd9e978e20ecc",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a0768b61e94a56f7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a57baca95f9c1948",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "448bcc17a6b98769",
+    "type": "split",
+    "children": [
+      {
+        "id": "14d426d652e67d60",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1e0cd3c9e4d91c95",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ole.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "08987c4f74b46537",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ole.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "87fc02f32f84eca0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "511ce1da7fc3c464",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ole.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2053744de7d369c5",
+  "lastOpenFiles": [
+    "ole.md",
+    "alo.md",
+    "app"
+  ]
+}
