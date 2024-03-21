@@ -8,18 +8,44 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2053744de7d369c5",
+            "id": "c21e6189e6469c49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ole.md",
+                "file": "Resources/how to use obsidian.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "be73cfb927c83b52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/Report writing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d21e8091f9a4f2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/how to use obsidian.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ole.md",
+                "file": "Resources/Report writing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ole.md",
+                "file": "Resources/Report writing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,16 +151,36 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ole.md"
+                "file": "Resources/Report writing.md"
               }
             }
+          },
+          {
+            "id": "d30ed5e04c7b9cc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/how to use obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d876f9d7c0e5f32f",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,13 +189,22 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "2053744de7d369c5",
+  "active": "be73cfb927c83b52",
   "lastOpenFiles": [
-    "ole.md",
+    "Resources/how to use obsidian.md",
+    "Resources/md cheatsheet.png",
+    "Resources/Report writing.md",
+    "Resources/Writing.md",
+    "Notes/API testing.md",
+    "API testing/API testing.md",
+    "Notes",
+    "how to use obsidian and md.md",
     "alo.md",
-    "app"
+    "Resources"
   ]
 }
