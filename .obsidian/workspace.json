@@ -4,48 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4587fa2c6de662a3",
+        "id": "63076156d3272c16",
         "type": "tabs",
         "children": [
           {
-            "id": "c21e6189e6469c49",
+            "id": "0cda6d929ed31d97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/how to use obsidian.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "be73cfb927c83b52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/Report writing.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d21e8091f9a4f2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/how to use obsidian.md",
+                "file": "Notes/all writings/GRAPHQL.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,14 +31,17 @@
       {
         "id": "7b51d872ac75ac6b",
         "type": "tabs",
+        "dimension": 34.47802197802198,
         "children": [
           {
             "id": "786dd9e978e20ecc",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "markdown",
               "state": {
-                "sortOrder": "alphabetical"
+                "file": "Notes/all writings/API testing.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -92,10 +69,27 @@
             }
           }
         ]
+      },
+      {
+        "id": "11153212c03b3fd8",
+        "type": "tabs",
+        "dimension": 65.52197802197803,
+        "children": [
+          {
+            "id": "5fafb9fd431b6cca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 280.5
   },
   "right": {
     "id": "448bcc17a6b98769",
@@ -111,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/how to use obsidian.md",
+                "file": "Notes/all writings/GRAPHQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/how to use obsidian.md",
+                "file": "Notes/all writings/GRAPHQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,19 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/how to use obsidian.md"
-              }
-            }
-          },
-          {
-            "id": "d30ed5e04c7b9cc8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/how to use obsidian.md",
-                "mode": "source",
-                "source": false
+                "file": "Notes/all writings/GRAPHQL.md"
               }
             }
           },
@@ -174,13 +156,21 @@
               "type": "BC-tree",
               "state": {}
             }
+          },
+          {
+            "id": "7dfd1a2ee062c906",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,20 +180,33 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "templater-obsidian:Templater": false,
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "d30ed5e04c7b9cc8",
+  "active": "0cda6d929ed31d97",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Notes/all writings/GRAPHQL.md",
+    "Notes/all writings/API testing.md",
+    "Resources/Links.md",
+    "Notes/Links.md",
+    "Resources/resource/how to use obsidian.md",
+    "Notes/all writings/RECON.md",
+    "Notes/all writings",
+    "Notes/all writing",
+    "Notes/New folder",
+    "Resources/resource/Writing.md",
+    "Resources/resource/md cheatsheet.png",
+    "Resources/resource/Report writing.md",
+    "Resources/resource",
+    "Resources/New folder",
+    "Resources/how to use obsidian.md",
+    "API testing/API testing.md",
     "Templates",
     "New folder",
     "Resources/Report writing.md",
-    "Resources/how to use obsidian.md",
     "Resources/md cheatsheet.png",
     "Resources/Writing.md",
-    "Notes/API testing.md",
-    "API testing/API testing.md",
     "Notes",
     "how to use obsidian and md.md",
     "alo.md",
