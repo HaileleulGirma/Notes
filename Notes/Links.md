@@ -1,2 +1,2 @@
 [[RECON]]
-[[API testing]]
+[[API]]
