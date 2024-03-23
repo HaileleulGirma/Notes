@@ -120,7 +120,7 @@ EXAMPLE ^6dd0ee
 ## Where to find GRAPHQL?
 It is at the same place you find other API's.
 GraphQL is usually located at specific endpoints.
-- qql, graphql, graphiql, graphql/console
+- q, ql, gql, graphql, graphiql, graphql/console
 - also lookout for requests/responses referencing: queries, mutations, subscriptions...
 - q=
 
@@ -168,9 +168,11 @@ SOURCE on fragments, metaqueries, queries and mutations: [Finding your next bug:
 ### TOOLS
 are found in the video starting @32:27
 - GRAPHQL voyager
+![[graphql voyager.png]]
 - GRAPHQL IDE
 - INQL (burp addon)
 - graphql-path-enum (understand large graphs)
+![[graphql-path-enum.png]]
 ## RESOURCES
 [GRAPHQL crash course by net ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gUxtblNUahcsg0WLxmrK_y)
 
