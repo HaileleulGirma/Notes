@@ -1,2 +1,2 @@
 #payload
-[[Payloads for API testing]]
+[[API testing]]
