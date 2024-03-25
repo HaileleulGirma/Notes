@@ -7,7 +7,7 @@
 -  [API Pentesting mindmap](https://github.com/cyprosecurity/API-SecurityEmpire/blob/main/README.md)
 -  [beginners guide to API hacking](https://danaepp.com/beginners-guide-to-api-hacking)
 - [31-days-of-API-security-tips](https://github.com/inonshk/31-days-of-API-Security-Tips)
+- [pentips about API](https://csbygb.gitbook.io/pentips/web-pentesting/api)
 ## RESOURCES
 - Twitter [Nithin](https://twitter.com/thebinarybot)
-- 
 
