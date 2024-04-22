@@ -42,6 +42,18 @@
             }
           },
           {
+            "id": "ecc767c9f1b84d7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resources/resource/how to use obsidian.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "946a43038211b3bf",
             "type": "leaf",
             "state": {
@@ -54,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5,
-    "collapsed": true
+    "width": 280.5
   },
   "right": {
     "id": "448bcc17a6b98769",
@@ -122,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Hacking API's.md",
+                "file": "Resources/resource/how to use obsidian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Hacking API's.md",
+                "file": "Resources/resource/how to use obsidian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Hacking API's.md"
+                "file": "Resources/resource/how to use obsidian.md"
               }
             }
           },
@@ -200,11 +211,14 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "5fafb9fd431b6cca",
+  "active": "ecc767c9f1b84d7c",
   "lastOpenFiles": [
+    "Resources/Links.md",
+    "Notes/Links.md",
+    "Untitled.md",
+    "Resources/Hacking API's.md",
     "Notes/all writings/API.md",
     "Notes/all writings/Amass.md",
-    "Resources/Hacking API's.md",
     "Notes/all writings/RECON.md",
     "Resources/Bug bounty bootcamp.md",
     "Notes/all writings/API testing.md",
@@ -215,10 +229,8 @@
     "API pentesting mindmap.png",
     "API pentesting mindmap graphql.png",
     "API pentesting mindmap attack.png",
-    "Notes/Links.md",
     "Notes/all writings/GRAPHQL.md",
     "Resources/resource/how to use obsidian.md",
-    "Resources/Links.md",
     "Notes/all writings",
     "Notes/all writing",
     "Notes/New folder",
