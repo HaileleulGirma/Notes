@@ -37,6 +37,7 @@
 	- sometimes you'll see standalone JSON calls
 	- websockets are also used as APIs
 ### RESTful
+#RESTFUL-API 
 - restful api's are really easy to spot
 	- they have a defined structure which relates to CRUD functionality
 	- mostly GET and POST methods are used for all.
@@ -98,5 +99,5 @@ We can spot API'S if we lookout for:
 -  [7 burp extensions for hacking API's](https://danaepp.com/7-essential-burp-extensions-for-hacking-apis)
 
 ## RESOURCES
-- [insiderphs everything api hacking playlist](https://www.youtube.com/playlist?list=PLbyncTkpno5HqX1h2MnV6Qt4wvTb8Mpol)
+- [insiderphd's everything api hacking playlist](https://www.youtube.com/playlist?list=PLbyncTkpno5HqX1h2MnV6Qt4wvTb8Mpol)
 - 
