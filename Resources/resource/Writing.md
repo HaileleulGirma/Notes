@@ -4,6 +4,8 @@
 [[how to use obsidian]]
 
 ### Report writing
-#writeup 
+#writeup #writing #report-writing
 *Focuses on explaining how to write a good report*
+
+
 [[Report writing]]

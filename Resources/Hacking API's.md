@@ -15,6 +15,7 @@
 - The term web application refers to software that is running on a web server, such as Wikipedia, LinkedIn, Twitter, Gmail, GitHub, and Reddit. In particular, web applications are designed for end-user interactivity. Whereas websites are typically read-only and provide one-way communication from the web server to the client, web applications allow communications to flow in both directions, from server to client and from client to server
 - 
 ### THE URL, HTTP REQUESTS/RESPONSES, STATUS CODES , METHODS
+#HTTP #HTTP-METHOD #HTTP-RESPONSE #HTTP-REQUEST 
 - the URL P16
 - HTTP requests P17
 - HTTP responses P18

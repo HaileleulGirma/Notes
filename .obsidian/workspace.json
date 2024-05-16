@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/all writings/API testing.md",
+                "file": "Resources/Hacking API's.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,48 +25,24 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Notes/all writings/graphql-path-enum.png"
+                "file": "Notes/all writings/graphql voyager.png"
               }
             }
           },
           {
-            "id": "ed9e2e247f73a266",
+            "id": "999fa7387dbaff46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Hacking API's.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ecc767c9f1b84d7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/resource/how to use obsidian.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "946a43038211b3bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resources/Bug bounty bootcamp.md",
+                "file": "Notes/all writings/JS.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/resource/how to use obsidian.md",
+                "file": "Notes/all writings/JS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/resource/how to use obsidian.md",
+                "file": "Notes/all writings/JS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/resource/how to use obsidian.md"
+                "file": "Notes/all writings/JS.md"
               }
             }
           },
@@ -193,7 +169,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -211,44 +188,52 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "ecc767c9f1b84d7c",
+  "active": "999fa7387dbaff46",
   "lastOpenFiles": [
-    "Resources/Links.md",
-    "Notes/Links.md",
-    "Untitled.md",
-    "Resources/Hacking API's.md",
-    "Notes/all writings/API.md",
-    "Notes/all writings/Amass.md",
-    "Notes/all writings/RECON.md",
-    "Resources/Bug bounty bootcamp.md",
-    "Notes/all writings/API testing.md",
-    "Notes/all writings/HTTP.md",
-    "Notes/all writings/graphql-path-enum.png",
-    "Notes/all writings/graphql voyager.png",
     "Notes/all writings/Payloads to insert.md",
-    "API pentesting mindmap.png",
-    "API pentesting mindmap graphql.png",
-    "API pentesting mindmap attack.png",
-    "Notes/all writings/GRAPHQL.md",
+    "Notes/all writings/graphql-path-enum.png",
+    "Notes/all writings/RECON.md",
+    "Notes/all writings/JS.md",
+    "Resources/Bug bounty bootcamp.md",
+    "Resources/Hacking API's.md",
+    "Notes/all writings/API testing.md",
+    "Writing a Good Report.md",
+    "Notes/all writings/graphql voyager.png",
+    "Notes/all writings/Amass.md",
+    "Untitled.md",
+    "Writing a Good Report (from Bug bounty bootcamp).md",
+    "Notes/all writings/API.md",
+    "Notes/Links.md",
+    "Notes/all writings/JS codecademy.md",
+    "Resources/resource/Writing.md",
+    "Resources/resource/Report writing.md",
+    "Chapter 5 Web Hacking Reconnaissance.md",
+    "Resources/Kiterunner.md",
+    "Notes/images/kiterunner/20.png",
+    "Notes/images/kiterunner/19.png",
+    "Notes/images/kiterunner/18.png",
+    "Notes/images/kiterunner/17.png",
+    "Notes/images/kiterunner/16.png",
+    "Notes/images/kiterunner/15.png",
+    "Notes/images/kiterunner/13.png",
+    "Notes/images/kiterunner/14.png",
+    "Resources/TOOLS.md",
+    "Resources/Links.md",
+    "Resources/testing guides.md",
+    "Notes/images/kiterunner",
+    "Notes/images/New folder",
+    "Notes/images",
+    "Notes/New folder",
     "Resources/resource/how to use obsidian.md",
+    "Notes/all writings/HTTP.md",
+    "Notes/all writings/GRAPHQL.md",
     "Notes/all writings",
     "Notes/all writing",
-    "Notes/New folder",
-    "Resources/resource/Writing.md",
-    "Resources/resource/md cheatsheet.png",
-    "Resources/resource/Report writing.md",
     "Resources/resource",
     "Resources/New folder",
     "Resources/how to use obsidian.md",
     "API testing/API testing.md",
     "Templates",
-    "New folder",
-    "Resources/Report writing.md",
-    "Resources/md cheatsheet.png",
-    "Resources/Writing.md",
-    "Notes",
-    "how to use obsidian and md.md",
-    "alo.md",
-    "Resources"
+    "New folder"
   ]
 }
