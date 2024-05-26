@@ -391,8 +391,58 @@ site:example.com ext:log
 ```
 - Finally, you can also combine search terms for a more accurate search. For example, this query searches the site example.com for text files that contain password:
 	- `site:example.com ext:txt password`
-- In addition to constructing your own queries, check out the Google Hacking Database (https://www.exploit-db.com/google-hacking-database/), a website that hackers and security practitioners use to share Google search queries for finding security-related information. It contains many search queries that could be helpful to you during the recon process
+- In addition to constructing your own queries, check out the Google Hacking Database (https://www.exploit-db.com/google-hacking-database/), a website that hackers and security practitioners use to share Google search queries for finding security-related information. It contains many search queries that could be helpful to you during the recon process #LINK 
 - While you are performing recon using Google search, keep in mind that if you’re sending a lot of search queries, Google will start requiring CAPTCHA challenges for visitors from your network before they can perform more searches. This could be annoying to others on your network, so I don’t recommend Google dorking on a corporate or shared network.
+### Scope discovery
+- First, always verify the target’s scope. A program’s scope on its policy page specifies which subdomains, products, and applications you’re allowed to attack. Carefully verify which of the company’s assets are in scope to avoid overstepping boundaries during the recon and hacking process.
+#### WHOIS and REVERSE WHOIS
+- When companies or individuals register a domain name, they need to supply identifying information, such as their mailing address, phone number, and email address, to a domain registrar. Anyone can then query this information by using the whois command, which searches for the registrant and owner information of each known domain. 
+- You might be able to find the associated contact information, such as an email, name, address, or phone number
+- This information is not always available, as some organizations and individuals use a service called domain privacy, in which a third-party service provider replaces the user’s information with that of a forwarding service.
+- You could then conduct a reverse WHOIS search, searching a database by using an organization name, a phone number, or an email address to find domains registered with it. This way, you can find all the domains that belong to the same owner. Reverse WHOIS is extremely useful for finding obscure or internal domains not otherwise disclosed to the public.
+- Use a public reverse WHOIS tool like ViewDNS.info (https://viewdns.info/reversewhois/) to conduct this search. WHOIS and reverse WHOIS will give you a good set of top-level domains to work with. #LINK
+#### IP Addresses
+- IP Addresses Another way of discovering your target’s top-level domains is to locate IP addresses. Find the IP address of a domain you know by running the nslookup command.
+- Once you’ve found the IP address of the known domain, perform a reverse IP lookup. Reverse IP searches look for domains hosted on the same server, given an IP or domain. 
+- You can also use ViewDNS.info for this. Also run the whois command on an IP address, and then see if the target has a dedicated IP range by checking the NetRange field. An IP range is a block of IP addresses that all belong to the same organization.
+- Another way of finding IP addresses in scope is by looking at autonomous systems, which are routable networks within the public internet. Autonomous system numbers (ASNs) identify the owners of these networks. By checking if two IP addresses share an ASN, you can determine whether the IPs belong to the same owner. 
+- To figure out if a company owns a dedicated IP range, run several IP-toASN translations to see if the IP addresses map to a single ASN. If many addresses within a range belong to the same ASN, the organization might have a dedicated IP range
+#### Certificate Parsing 
+- Another way of finding hosts is to take advantage of the Secure Sockets Layer (SSL) certificates used to encrypt web traffic. An SSL certificate’s Subject Alternative Name field lets certificate owners specify additional hostnames that use the same certificate, so you can find those hostnames by parsing this field. Use online databases like crt.sh, Censys, and Cert Spotter to find certificates for a domain. #TOOLS #recon #LINK 
+- The crt.sh website also has a useful utility that lets you retrieve the information in JSON format, rather than HTML, for easier parsing. Just add the URL parameter output=json to the request URL: https://crt.sh/ ?q=facebook.com&output=json. #LINK 
+#### Subdomain Enumeration 
+- After finding as many domains on the target as possible, locate as many subdomains on those domains as you can. Each subdomain represents a new angle for attacking the network. The best way to enumerate subdomains is to use automation. 
+- Tools like Sublist3r, SubBrute, Amass, and Gobuster can enumerate subdomains automatically with a variety of wordlists and strategies. 
+	- For example, Sublist3r works by querying search engines and online subdomain databases, while SubBrute is a brute-forcing tool that guesses possible subdomains until it finds real ones. Amass uses a combination of DNS zone transfers, certificate parsing, search engines, and subdomain databases to find subdomains. #TOOLS #recon 
+- To use many subdomain enumeration tools, you need to feed the program a wordlist of terms likely to appear in subdomains. You can find some good wordlists made by other hackers online. 
+	- Daniel Miessler’s SecLists at https://github.com/danielmiessler/SecLists/ is a pretty extensive one. 
+	- You can also use a wordlist generation tool like Commonspeak2 (https://github.com/ assetnote/commonspeak2/) to generate wordlists based on the most current internet data
+- Finally, you can combine several wordlists found online or that you generated yourself for the most comprehensive results. Here’s a simple command to remove duplicate items from a set of two wordlists.
+	- `sort -u wordlist1.txt wordlist2.txt`
+		- The sort command line tool sorts the lines of text files. When given multiple files, it will sort all files and write the output to the terminal. The -u option tells sort to return only unique items in the sorted list.
+	- `gobuster dns -d target_domain -w wordlist` `for detail P95/418`
+	- Once you’ve found a good number of subdomains, you can discover more by identifying patterns. 
+		- For example, if you find two subdomains of example .com named 1.example.com and 3.example.com, you can guess that 2.example.com is probably also a valid subdomain. 
+		- A good tool for automating this process is Altdns (https://github.com/infosec-au/altdns/), which discovers subdomains with names that are permutations of other subdomain names. #TOOLS #recon
+- In addition, you can find more subdomains based on your knowledge about the company’s technology stack. 
+	- For example, if you’ve already learned that example.com uses Jenkins, you can check if jenkins.example.com is a valid subdomain. 
+- Also look for subdomains of subdomains. After you’ve found, say, dev.example .com, you might find subdomains like 1.dev.example.com. You can find subdomains of subdomains by running enumeration tools recursively: add the results of your first run to your Known Domains list and run the tool again.
+#### Service Enumeration 
+- Next, enumerate the services hosted on the machines you’ve found. Since services often run on default ports, a good way to find them is by port-scanning the machine with either active or passive scanning.
+- In active scanning, you directly engage with the server. Active scanning tools send requests to connect to the target machine’s ports to look for open ones. You can use tools like Nmap or Masscan for active scanning. #TOOLS #recon 
+- On the other hand, in passive scanning, you use third-party resources to learn about a machine’s ports without interacting with the server. Passive scanning is stealthier and helps attackers avoid detection. 
+	- To find services on a machine without actively scanning it, you can use Shodan, a search engine that lets the user find machines connected to the internet. #TOOLS #recon 
+	- Alternatives to Shodan include Censys and Project Sonar. Combine the information you gather from different databases for the best results. With these databases, you might also find your target’s IP addresses, certificates, and software versions.
+#### Directory Brute-Forcing 
+- The next thing you can do to discover more of the site’s attack surface is brute-force the directories of the web servers you’ve found. Finding directories on servers is valuable, because through them, you might discover hidden admin panels, configuration files, password files, outdated functionalities, database copies, and source code files. Directory brute-forcing can sometimes allow you to directly take over a server! 
+- Even if you can’t find any immediate exploits, directory information often tells you about the structure and technology of an application. For example, a pathname that includes phpmyadmin usually means that the application is built with PHP.
+- You can use Dirsearch or Gobuster for directory brute-forcing. These tools use wordlists to construct URLs, and then request these URLs from a web server. #TOOLS #recon 
+- Manually visiting all the pages you’ve found through brute-forcing can be time-consuming. 
+	- Instead, use a screenshot tool like EyeWitness (https://github .com/FortyNorthSecurity/EyeWitness/) or Snapper (https://github.com/dxa4481/ Snapper/) to automatically verify that a page is hosted on each location. EyeWitness accepts a list of URLs and takes screenshots of each page. #TOOLS #recon 
+- Keep an eye out for hidden services, such as developer or admin panels, directory listing pages, analytics pages, and pages that look outdated and illmaintained. These are all common places for vulnerabilities to manifest.
+#### Spidering the Site 
+- Another way of discovering directories and paths is through web spidering, or web crawling, a process used to identify all pages on a site. A web spider tool starts with a page to visit. It then identifies all the URLs embedded on the page and visits them. By recursively visiting all URLs found on all pages of a site, the web spider can uncover many hidden endpoints in an application. 
+	- OWASP Zed Attack Proxy (ZAP) at https://www.zaproxy.org/ has a built-in web spider you can use (Figure 5-2). This open source security tool includes a scanner, proxy, and many other features. Burp Suite has an equivalent tool called the crawler, but I prefer ZAP’s spider. #TOOLS #recon 
+	- `for details and steps to do it, check P98/412`
 - 
- 
-# P91/418
+# P95/418

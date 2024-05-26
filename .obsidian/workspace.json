@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Hacking API's.md",
+                "file": "Resources/Bug bounty bootcamp.md",
                 "mode": "source",
                 "source": false
               }
@@ -35,14 +35,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/all writings/JS.md",
+                "file": "Notes/all writings/Amass.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 280.5,
+    "collapsed": true
   },
   "right": {
     "id": "448bcc17a6b98769",
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/all writings/JS.md",
+                "file": "Resources/Bug bounty bootcamp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/all writings/JS.md",
+                "file": "Resources/Bug bounty bootcamp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/all writings/JS.md"
+                "file": "Resources/Bug bounty bootcamp.md"
               }
             }
           },
@@ -188,18 +188,19 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "999fa7387dbaff46",
+  "active": "5fafb9fd431b6cca",
   "lastOpenFiles": [
-    "Notes/all writings/Payloads to insert.md",
-    "Notes/all writings/graphql-path-enum.png",
+    "Notes/all writings/Amass.md",
+    "Resources/Bug bounty bootcamp.md",
+    "Resources/Kiterunner.md",
+    "Resources/Hacking API's.md",
     "Notes/all writings/RECON.md",
     "Notes/all writings/JS.md",
-    "Resources/Bug bounty bootcamp.md",
-    "Resources/Hacking API's.md",
+    "Notes/all writings/Payloads to insert.md",
+    "Notes/all writings/graphql-path-enum.png",
     "Notes/all writings/API testing.md",
     "Writing a Good Report.md",
     "Notes/all writings/graphql voyager.png",
-    "Notes/all writings/Amass.md",
     "Untitled.md",
     "Writing a Good Report (from Bug bounty bootcamp).md",
     "Notes/all writings/API.md",
@@ -208,7 +209,6 @@
     "Resources/resource/Writing.md",
     "Resources/resource/Report writing.md",
     "Chapter 5 Web Hacking Reconnaissance.md",
-    "Resources/Kiterunner.md",
     "Notes/images/kiterunner/20.png",
     "Notes/images/kiterunner/19.png",
     "Notes/images/kiterunner/18.png",
